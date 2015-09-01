@@ -9,5 +9,6 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
+    <EditText android:id="@+id/zName" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
 </LinearLayout>
 
