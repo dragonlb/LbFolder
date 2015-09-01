@@ -57,12 +57,12 @@ public class FileListActivity extends Activity {
     }
 
     private void scanDir(){
-        File rootDir = new File("/");
+        File rootDir = new File(File.separator);
 //        rootDir.getf
         if(rootDir.isDirectory()){
             int i = 0;
             for( File oneFile: rootDir.listFiles() ){
-                Log.d(TAG, "F "+(++i)+" :\t\t"+oneFile.getPath());
+                Log.d(TAG, "F "+(++i)+" :\t\t"+oneFile.getAbsoluteFile());
             }
         }
     }
