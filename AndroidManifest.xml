@@ -17,5 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".FListViewAdapter"/>
+        <activity android:name=".FListMainActivity"/>
+        <activity android:name="com.ts.ui.ListViewActivity"/>
     </application>
 </manifest>
